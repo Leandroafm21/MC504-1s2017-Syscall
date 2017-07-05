@@ -3,7 +3,6 @@
 #include<linux/sched.h>
 #include<linux/syscalls.h>
 #include<linux/time.h>
-#include "processInfo.h"
 
 asmlinkage long sys_listProcessInfo(void) {
     struct task_struct *proc;
